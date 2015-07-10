@@ -422,6 +422,7 @@ let g:nerdtree_tabs_synchronize_focus=0
 " Vim Workspace Controller
 Bundle "szw/vim-ctrlspace"
 let g:airline_exclude_preview = 1
+let g:ctrlspace_default_mapping_key="<leader>b"
 hi CtrlSpaceSelected guifg=#586e75 guibg=#eee8d5 guisp=#839496 gui=reverse,bold ctermfg=10 ctermbg=7 cterm=reverse,bold
 hi CtrlSpaceNormal   guifg=#839496 guibg=#021B25 guisp=#839496 gui=NONE ctermfg=12 ctermbg=0 cterm=NONE
 hi CtrlSpaceSearch   guifg=#cb4b16 guibg=NONE gui=bold ctermfg=9 ctermbg=NONE term=bold cterm=bold
